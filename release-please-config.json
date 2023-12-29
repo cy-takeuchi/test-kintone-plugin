@@ -1,0 +1,17 @@
+{
+  "packages": {
+    ".": {}
+  },
+  "$schema": "https://raw.githubusercontent.com/stainless-api/release-please/main/schemas/config.json",
+  "include-v-in-tag": true,
+  "include-component-in-tag": false,
+  "release-type": "simple",
+  "extra-files": [
+    "src/version.py",
+    {
+      "type": "json",
+      "path": "src/manifest.json",
+      "jsonpath": "$.version"
+    }
+  ]
+}

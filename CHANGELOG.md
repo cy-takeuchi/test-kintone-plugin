@@ -1,0 +1,44 @@
+# Changelog
+
+## [0.4.0](https://github.com/cy-takeuchi/test-kintone-plugin/compare/v0.3.0...v0.4.0) (2023-12-29)
+
+
+### Features
+
+* test ([5b1a63c](https://github.com/cy-takeuchi/test-kintone-plugin/commit/5b1a63cc022aefa05a295021e7e214b3973f80aa))
+
+
+### Bug Fixes
+
+* a ([8d2c48d](https://github.com/cy-takeuchi/test-kintone-plugin/commit/8d2c48dc97a9837829ab068c2376899af3c67cdc))
+
+## [0.3.0](https://github.com/cy-takeuchi/test-kintone-plugin/compare/v0.2.0...v0.3.0) (2023-12-28)
+
+
+### Features
+
+* test ([e960bb9](https://github.com/cy-takeuchi/test-kintone-plugin/commit/e960bb9257975edfb3c97a7ac59ee8512ba426fe))
+
+## [0.2.0](https://github.com/cy-takeuchi/test-kintone-plugin/compare/v0.1.0...v0.2.0) (2023-12-28)
+
+
+### Features
+
+* test ([b6297d0](https://github.com/cy-takeuchi/test-kintone-plugin/commit/b6297d031df25068b63e78135ce43e8c2c40bf0e))
+* test ([f95be35](https://github.com/cy-takeuchi/test-kintone-plugin/commit/f95be350cebb490aab233593092eb052d7890633))
+* test ([d69067f](https://github.com/cy-takeuchi/test-kintone-plugin/commit/d69067f6d22b54e28f6ea26aef7c94507856be6a))
+* test ([16816f4](https://github.com/cy-takeuchi/test-kintone-plugin/commit/16816f4deda10e1b69a177a4762401ddedb6811d))
+* test ([e59d549](https://github.com/cy-takeuchi/test-kintone-plugin/commit/e59d549ed64421c1d13cd3cdd1a27b39129d17b7))
+* test ([49730da](https://github.com/cy-takeuchi/test-kintone-plugin/commit/49730dab0420d02bf44c718648cb79ef44f15768))
+* test24 ([9690822](https://github.com/cy-takeuchi/test-kintone-plugin/commit/96908224980fd360a2087c25ad21c6379854e809))
+* test25 ([b938664](https://github.com/cy-takeuchi/test-kintone-plugin/commit/b938664c5b6d88c67ad8afada7df4c8a3d60f334))
+* test26 ([8ba5eba](https://github.com/cy-takeuchi/test-kintone-plugin/commit/8ba5eba5fa9936c9a5acbba96ba494010fabfb66))
+* test27 ([2a56176](https://github.com/cy-takeuchi/test-kintone-plugin/commit/2a561767b14b785a709065936843e57e976205ef))
+* test28 ([09c0c19](https://github.com/cy-takeuchi/test-kintone-plugin/commit/09c0c19bf33016375e2df22b5aeaedcaad88515c))
+* test29 ([409eb55](https://github.com/cy-takeuchi/test-kintone-plugin/commit/409eb55b2197bbfd19a9e894324fa13bf4715506))
+* test30 ([5149209](https://github.com/cy-takeuchi/test-kintone-plugin/commit/5149209c4ab09e351f22ea4e63406e42be1dc095))
+* test31 ([6af204e](https://github.com/cy-takeuchi/test-kintone-plugin/commit/6af204e694700cfdc23725e9ae0c4c02d07ba5a1))
+* test32 ([d4673e4](https://github.com/cy-takeuchi/test-kintone-plugin/commit/d4673e45066abf243f1c808d58cd8c1dfe64d3d6))
+* test34 ([9f7e4cf](https://github.com/cy-takeuchi/test-kintone-plugin/commit/9f7e4cfd2c641c94dab988123922e25382ba831b))
+* test6 ([4af574b](https://github.com/cy-takeuchi/test-kintone-plugin/commit/4af574be541db0e4d20a44cf451a65534b5d8f04))
+* test7 ([e2941e4](https://github.com/cy-takeuchi/test-kintone-plugin/commit/e2941e458f7270d7e7bbe2d917df36420192f428))
