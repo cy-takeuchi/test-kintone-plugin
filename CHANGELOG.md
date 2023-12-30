@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.4.0](https://github.com/cy-takeuchi/test-kintone-plugin/compare/test-kintone-plugin-v1.3.0...test-kintone-plugin-v1.4.0) (2023-12-30)
+
+
+### Features
+
+* test ([21d539e](https://github.com/cy-takeuchi/test-kintone-plugin/commit/21d539eb6ea96f369488e2c4cd11d285e53bce3f))
+* test ([57ff5a3](https://github.com/cy-takeuchi/test-kintone-plugin/commit/57ff5a3fea36b02e12708b8b86283d8338622812))
+* test ([d87bdb7](https://github.com/cy-takeuchi/test-kintone-plugin/commit/d87bdb79cde202104b927ff5252f006e1f4e6a7c))
+* test ([b386454](https://github.com/cy-takeuchi/test-kintone-plugin/commit/b386454df83716be6929a532ac42cb4228d19a55))
+* test ([4b2a3f8](https://github.com/cy-takeuchi/test-kintone-plugin/commit/4b2a3f80850d96e17cc461f6f45adea437022385))
+* test ([a776d06](https://github.com/cy-takeuchi/test-kintone-plugin/commit/a776d0630b0031bff5d6270bfe6dec6c9d62058a))
+* test ([a2ab6dd](https://github.com/cy-takeuchi/test-kintone-plugin/commit/a2ab6dd97805eddc901d381a8e920dc148707126))
+* test ([6d4dbef](https://github.com/cy-takeuchi/test-kintone-plugin/commit/6d4dbeffa3250541d650d3c2dbe6844e9f83f3ab))
+
 ## [1.3.0](https://github.com/cy-takeuchi/test-kintone-plugin/compare/v1.2.0...v1.3.0) (2023-12-30)
 
 
