@@ -9,11 +9,14 @@ jobs:
     steps:
       - uses: google-github-actions/release-please-action@v4
         id: release
-      # - uses: actions/checkout@v4
-      # - name: Update manifest.json
-      #   run: |
-      #     ls
-      #     pwd
-      #     ls src
-      #     ls ./src/manifest.json
-      #     jq '.version="0.2.0"' ./src/manifest.json > ./src/manifest.json.tmp && mv ./src/manifest.json.tmp ./src/manifest.json
+      - uses: actions/checkout@v4
+        if: ${{ steps.release.outputs.release_created }}
+      - uses: actions/setup-node@v4
+        if: ${{ steps.release.outputs.release_created }}
+        with:
+          node-version: 18
+      - name: build kintone plugin
+        if: ${{ steps.release.outputs.release_created }}
+        run: |
+          npm ci && npm install @kintone/plugin-packer
+          cd src && kintone-plugin-packer --ppk ./private.ppk --out ./mypluginname-ver${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}.${{ steps.release.outputs.patch }}.plugin.zip .
