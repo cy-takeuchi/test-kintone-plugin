@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/cy-takeuchi/test-kintone-plugin/compare/test-kintone-plugin-v1.5.0...test-kintone-plugin-v1.6.0) (2023-12-30)
+
+
+### Features
+
+* test ([28d77dc](https://github.com/cy-takeuchi/test-kintone-plugin/commit/28d77dcb41d04f742045e116de665e7ade286ecf))
+
 ## [1.5.0](https://github.com/cy-takeuchi/test-kintone-plugin/compare/test-kintone-plugin-v1.4.0...test-kintone-plugin-v1.5.0) (2023-12-30)
 
 
