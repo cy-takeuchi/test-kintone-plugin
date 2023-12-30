@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/cy-takeuchi/test-kintone-plugin/compare/test-kintone-plugin-v1.8.0...test-kintone-plugin-v1.9.0) (2023-12-30)
+
+
+### Features
+
+* test ([9983fa9](https://github.com/cy-takeuchi/test-kintone-plugin/commit/9983fa9b7e0a32f1a25c3c10d63df53d8f88e5dc))
+
 ## [1.8.0](https://github.com/cy-takeuchi/test-kintone-plugin/compare/test-kintone-plugin-v1.7.0...test-kintone-plugin-v1.8.0) (2023-12-30)
 
 
