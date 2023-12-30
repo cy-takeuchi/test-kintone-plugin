@@ -15,8 +15,13 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         with:
           node-version: 18
-      - name: build kintone plugin
+      - name: Build kintone plugin
         if: ${{ steps.release.outputs.release_created }}
         run: |
           npm ci && npm install @kintone/plugin-packer
           cd src && kintone-plugin-packer --ppk ./private.ppk --out ./mypluginname-ver${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}.${{ steps.release.outputs.patch }}.plugin.zip .
+      - name: Upload kintone plugin
+        if: ${{ steps.release.outputs.release_created }}
+        # env:
+        #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release upload ${{ steps.release.outputs.tag_name }} ./mypluginname-ver${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}.${{ steps.release.outputs.patch }}.plugin.zip
