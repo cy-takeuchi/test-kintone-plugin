@@ -1,0 +1,10 @@
+{
+  "extra-files": [
+    "README.md",
+    {
+      "type": "json",
+      "path": "src/manifest.json",
+      "jsonpath": "$.version"
+    }
+  ]
+}
