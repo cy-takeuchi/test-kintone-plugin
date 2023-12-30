@@ -24,4 +24,6 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         # env:
         #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: cd src && gh release upload ${{ steps.release.outputs.tag_name }} ./mypluginname-ver${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}.${{ steps.release.outputs.patch }}.plugin.zip
