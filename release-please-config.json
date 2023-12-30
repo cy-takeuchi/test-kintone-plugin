@@ -1,4 +1,7 @@
 {
+  "packages": {
+    ".": {}
+  },
   "release-type": "node",
   "extra-files": [
     "README.md",
