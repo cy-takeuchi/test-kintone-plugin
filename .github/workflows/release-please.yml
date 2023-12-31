@@ -15,18 +15,23 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         with:
           node-version: 18
+      - name: Set version variable
+        if: ${{ steps.release.outputs.release_created }}
+        run: |
+          echo "plugin_version=$plugin_version" >> "$GITHUB_ENV"
+        env:
+          plugin_version: ${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}.${{ steps.release.outputs.patch }}
       - name: Build kintone plugin
         if: ${{ steps.release.outputs.release_created }}
         run: |
-          echo "plugin_version=${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}.${{ steps.release.outputs.patch }}" >> "$GITHUB_ENV"
           npm ci && npm install @kintone/plugin-packer
-          cd src && npx kintone-plugin-packer --ppk ./private.ppk --out ./mypluginname-ver$env:plugin_version.plugin.zip .
+          cd src && npx kintone-plugin-packer --ppk ./private.ppk --out ./mypluginname-ver$plugin_version.plugin.zip .
       - name: Upload kintone plugin
         if: ${{ steps.release.outputs.release_created }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          cd src && gh release upload ${{ steps.release.outputs.tag_name }} ./mypluginname-ver$env:plugin_version.plugin.zip
+          cd src && gh release upload ${{ steps.release.outputs.tag_name }} ./mypluginname-ver$plugin_version.plugin.zip
 
       # - name: Build kintone plugin
       #   if: ${{ steps.release.outputs.release_created }}
