@@ -1,8 +1,10 @@
+name: release-please
 on:
   push:
     branches:
       - main
-name: release-please
+env:
+  PLUGIN_NAME: myfirstplugin
 jobs:
   release-please:
     runs-on: ubuntu-latest
@@ -25,10 +27,10 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         run: |
           npm ci && npm install @kintone/plugin-packer
-          cd src && npx kintone-plugin-packer --ppk ./private.ppk --out ./mypluginname-ver$plugin_version.plugin.zip .
+          cd src && npx kintone-plugin-packer --ppk ./private.ppk --out ./$PLUGIN_NAME-ver$plugin_version.plugin.zip .
       - name: Upload kintone plugin
         if: ${{ steps.release.outputs.release_created }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          cd src && gh release upload ${{ steps.release.outputs.tag_name }} ./mypluginname-ver$plugin_version.plugin.zip
+          cd src && gh release upload ${{ steps.release.outputs.tag_name }} ./$PLUGIN_NAME-ver$plugin_version.plugin.zip
