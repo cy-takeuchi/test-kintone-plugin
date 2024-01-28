@@ -2,11 +2,15 @@ version: 2
 updates:
   - package-ecosystem: "github-actions"
     directory: "/"
+    schedule:
+      interval: "daily"
     assignees:
       - "cy-takeuchi"
 
   - package-ecosystem: "npm"
     directory: "/"
+    schedule:
+      interval: "daily"
     assignees:
       - "cy-takeuchi"
     commit-message:
