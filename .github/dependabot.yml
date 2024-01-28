@@ -1,0 +1,20 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    assignees:
+      - "cy-takeuchi"
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    assignees:
+      - "cy-takeuchi"
+    commit-message:
+      prefix: "fix"
+    groups:
+      group-dependencies:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
