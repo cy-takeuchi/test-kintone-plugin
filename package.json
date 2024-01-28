@@ -9,7 +9,7 @@
     "upload": "kintone-plugin-uploader dist/plugin.zip --watch --waiting-dialog-ms 3000"
   },
   "devDependencies": {
-    "@cybozu/eslint-config": "^18.0.3",
+    "@cybozu/eslint-config": "^22.0.2",
     "@kintone/plugin-packer": "^7.0.4",
     "@kintone/plugin-uploader": "^8.0.1",
     "eslint": "^8.46.0",
