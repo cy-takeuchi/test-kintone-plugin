@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.20.1](https://github.com/cy-takeuchi/test-kintone-plugin/compare/test-kintone-plugin-v1.20.0...test-kintone-plugin-v1.20.1) (2024-02-03)
+
+
+### Bug Fixes
+
+* package-lock.json ([6abc4a6](https://github.com/cy-takeuchi/test-kintone-plugin/commit/6abc4a68ca772d5eb68dd147b7c223421bf4a83f))
+
 ## [1.20.0](https://github.com/cy-takeuchi/test-kintone-plugin/compare/test-kintone-plugin-v1.19.0...test-kintone-plugin-v1.20.0) (2024-01-01)
 
 
