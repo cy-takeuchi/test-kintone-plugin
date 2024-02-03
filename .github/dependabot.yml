@@ -13,6 +13,8 @@ updates:
       - "cy-takeuchi"
     commit-message:
       prefix: "fix"
+    schedule:
+      interval: "daily"
     groups:
       group-dependencies:
         patterns:
